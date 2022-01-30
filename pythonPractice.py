@@ -370,5 +370,5 @@ print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"]))
 '''
 
 name = input('Enter a name:')
-for i in range(5):
+for i in range(6):
     print(name,'(',i,')')
