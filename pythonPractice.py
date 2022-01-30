@@ -1,4 +1,5 @@
-'''#First Execution:
+'''
+#First Execution:
 print("\n");
 print("Hello Pranam, you are going to be a Master in Python Programming", "\n");
 
@@ -17,8 +18,9 @@ while(n<=10):
 #An exmaple for a function
 
 print("\n")
+
 def triangleArea(base, height):
-        return base*height/2
+    return base*height/2
 
 area_1 = triangleArea(3,4)
 area_2 = triangleArea(5,8)
@@ -355,9 +357,6 @@ print(pig_latin("programming in python is fun"))
 print(pig_latin("hello how are you"))
 
 
-'''
-
-
 #The group_list function accepts a group name and a list of members, and returns a string with the format: group_name: member1, member2, …
 #For example, group_list("g", ["a","b","c"]) returns "g: a, b, c".
 
@@ -368,4 +367,8 @@ def group_list(group, users):
 
 print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"]))
 
+'''
 
+name = input('Enter a name:')
+for i in range(5):
+    print(name,'(',i,')')
