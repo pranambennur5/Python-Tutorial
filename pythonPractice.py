@@ -367,8 +367,36 @@ def group_list(group, users):
 
 print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"]))
 
+
+
+#How many times each letter appears in a piece of text
+
+def count_char(word):
+    result = {}
+    for char in word:
+        if char not in result:
+            result[char] = 0
+        result[char] += 1
+    return result
+
+print(count_char("abchoahanxsddbgdcui"))
+
+print(count_char("abcdefgh"))
+
+
 '''
 
-name = input('Enter a name:')
-for i in range(6):
-    print(name,'(',i,')')
+#The email_list function receives a dictionary, which contains domain names as keys, and a list of users as values.
+#Print a complete email address
+
+
+def email_list(domains):
+    result = []
+    for email, users in domains.items():
+        for user in users:
+            result.append(user + "@" + email)
+    return result
+
+
+print(email_list({"gmail.com": ["pranam.bennur", "prerana.bennur"],"outlook.com":["praveen.bennur","usha.bennur"]}))
+
