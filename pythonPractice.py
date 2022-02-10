@@ -366,7 +366,9 @@ def group_list(group, users):
 
 
 print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"]))
+print("\n")
 
+'''
 
 name = input('Enter a name:')
 for i in range(6):
